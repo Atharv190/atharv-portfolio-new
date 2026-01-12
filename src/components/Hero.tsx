@@ -8,24 +8,7 @@ const fadeInUp = {
 
 const ButtonStyles = "rounded-full font-semibold text-white select-none cursor-pointer";
 
-const CollaborateButton = () => (
-  <motion.a
-    href="#contact"
-    whileHover={{
-      scale: 1.1,
-      boxShadow: '0 0 20px 6px rgba(128,0,128,0.7)', // softer purple glow
-      transition: { duration: 0.3, ease: 'easeOut' },
-    }}
-    whileTap={{ scale: 0.95 }}
-    initial={{ boxShadow: '0 5px 10px rgba(128,0,128,0.3)' }}
-    animate={{ boxShadow: '0 8px 20px rgba(128,0,128,0.5)' }}
-    className={`${ButtonStyles} px-12 py-4 bg-gradient-to-r from-purple-700 to-purple-900 shadow-md`}
-    tabIndex={0}
-    aria-label="Let's Collaborate"
-  >
-    🚀 Let's Collaborate
-  </motion.a>
-);
+
 
 const DownloadCVButton = () => (
   <motion.a
@@ -45,7 +28,7 @@ const DownloadCVButton = () => (
     tabIndex={0}
     aria-label="Download Resume CV"
   >
-    📄 Download Resume
+    📄 Open Resume
   </motion.a>
 );
 
@@ -115,9 +98,7 @@ const Hero = () => {
             <span className="px-4 py-2 rounded-full bg-purple-500/20 text-purple-400 border border-purple-500/30 font-semibold animate-pulse-text shadow-sm">
               💻 Developer
             </span>
-            <span className="px-4 py-2 rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30 font-semibold animate-pulse-text-delay shadow-sm">
-              🛠 Engineer
-            </span>
+            
             <span className="px-4 py-2 rounded-full bg-pink-500/20 text-pink-400 border border-pink-500/30 font-semibold animate-pulse-text-longer-delay shadow-sm">
               🚀 Tech Enthusiast
             </span>
@@ -129,17 +110,23 @@ const Hero = () => {
             transition={{ delay: 0.9, duration: 0.7 }}
             className="backdrop-blur-lg bg-white/5 p-6 rounded-xl shadow-lg border border-white/20 max-w-2xl mx-auto mb-12"
           >
-            <p className="text-base sm:text-lg text-gray-300 leading-relaxed select-text">
-              👋 Hey there! I’m <span className="text-purple-400 font-semibold">Atharv Marathe</span>, a Computer Science student 👨‍💻 passionate about building the future of technology 🚀.
-              <br />I love designing user-centric experiences with ✨ beautiful front-end code and ⚙ seamless logic.
-            </p>
+        <p className="text-base sm:text-lg text-gray-300 leading-relaxed select-text">
+  👋 I’m <span className="text-purple-400 font-semibold">Atharv Marathe</span>, a Computer Engineering Student 💻 interested in developing practical and efficient software solutions.
+  <br />
+  I enjoy solving problems through logical thinking, steady learning, and clean implementation.
+</p>
+
+
+
+
+
           </motion.div>
 
           <div className="flex flex-col items-center gap-6">
 
   {/* Buttons – same line */}
   <div className="flex justify-center items-center gap-6 flex-wrap">
-    <CollaborateButton />
+    
     <DownloadCVButton />
   </div>
 
