@@ -1,4 +1,5 @@
-import { Github, ShieldCheck, FileText, Wifi, Wrench } from 'lucide-react';
+import { Github, ShieldCheck, FileText, Wifi, Wrench, Users } from 'lucide-react';
+
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -12,16 +13,16 @@ const Projects = () => {
       tech: ["Java", "MySQL", "JDBC", "Nodemailer", "Swing", "Encryption"],
       github: "https://github.com/Atharv190/Text-File-Hider",
     },
-    {
-      title: "ATS Score Checker",
-      description: `Web application that analyzes candidate resumes against job descriptions to calculate an Applicant Tracking System (ATS) compatibility score.
-      Utilizes OCR to extract text, natural language processing for keyword matching, and offers an intuitive UI for resume improvement.`,
-      image: "/images/ats-checker.png",
-      icon: <ShieldCheck className="h-6 w-6" />,
-      tech: ["React", "Bootstrap", "Node.js", "Express", "Flask", "Python", "MySQL", "OCR", "NLP", "REST API", "TF-IDF", "Cosine Similarity"],
-      github: "https://github.com/Atharv190/ats-score-checker",
-      live: "#",
-    },
+    // {
+    //   title: "ATS Score Checker",
+    //   description: `Web application that analyzes candidate resumes against job descriptions to calculate an Applicant Tracking System (ATS) compatibility score.
+    //   Utilizes OCR to extract text, natural language processing for keyword matching, and offers an intuitive UI for resume improvement.`,
+    //   image: "/images/ats-checker.png",
+    //   icon: <ShieldCheck className="h-6 w-6" />,
+    //   tech: ["React", "Bootstrap", "Node.js", "Express", "Flask", "Python", "MySQL", "OCR", "NLP", "REST API", "TF-IDF", "Cosine Similarity"],
+    //   github: "https://github.com/Atharv190/ats-score-checker",
+    //   live: "#",
+    // },
     {
       title: "Internet Service Complaint System",
       description: `A Java-based web system to efficiently log, track, and manage internet service complaints.
@@ -31,6 +32,25 @@ const Projects = () => {
       tech: ["Core Java","Advanced Java", "JSP", "Servlets", "MySQL", "HTML5", "CSS3", "JavaScript", "Bootstrap", ],
       github: "https://github.com/Atharv190/internet-service-complaint",
     },
+    {
+  title: "Alumni Tracking Portal",
+  description: `A web-based alumni management system designed for educational institutions to track alumni records efficiently.
+  Features include alumni registration, profile management, batch-wise search, admin dashboard, and secure authentication.`,
+  image: "/images/alumni-portal.jpeg", 
+  icon: <Users className="h-6 w-6" />,
+  tech: [
+    "Java",
+    "JSP",
+    "Servlets",
+    "MySQL",
+    "JDBC",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+  ],
+  github: "https://github.com/Atharv190/alumni-tracking-portal",
+},
     {
       title: "Motor Service Reminder App",
       description: `Spring Boot-powered backend for vehicle service management that automates service reminders, appointment bookings, and service history tracking.
