@@ -9,7 +9,7 @@ const qualifications = [
     year: "2023 - 2027",
     CGPA: "8.72",
     description:
-      "Currently pursuing with a strong focus on Web Development, Data Structures, and the MERN Stack.",
+      "Currently pursuing with a strong focus on Web Development, Data Structures and the MERN Stack.",
   },
   {
     icon: <BookOpen className="h-8 w-8 text-blue-400" />,
@@ -18,7 +18,7 @@ const qualifications = [
     year: "2021 - 2023",
     percentage: "87%",
     description:
-      "Completed with emphasis on Physics, Chemistry, and Mathematics. Achieved excellent grades in CET.",
+      "Completed with emphasis on Physics, Chemistry and Mathematics. Achieved Good grades in CET.",
   },
   {
     icon: <School className="h-8 w-8 text-green-400" />,
@@ -27,7 +27,7 @@ const qualifications = [
     year: "2021",
     percentage: "95.40%",
     description:
-      "Strong academic foundation with interest in logical thinking and problem solving.",
+      "Good academic foundation and problem-solving skills.",
   },
 ];
 

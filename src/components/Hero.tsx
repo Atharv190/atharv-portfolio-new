@@ -117,7 +117,7 @@ const Hero = () => {
         <p className="text-base sm:text-lg text-gray-300 leading-relaxed select-text">
   👋 I’m <span className="text-purple-400 font-semibold">Atharv Marathe</span>, a Computer Engineering Student 💻 interested in developing practical and efficient software solutions.
   <br />
-  I enjoy solving problems through logical thinking, steady learning, and clean implementation.
+  I enjoy solving problems through logical thinking, steady learning and clean implementation.
 </p>
 
 
