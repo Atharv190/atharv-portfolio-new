@@ -157,7 +157,7 @@ const Navbar = () => {
               exit={{ opacity: 0, y: -30 }}
               className="absolute top-full left-0 w-full bg-black/95 backdrop-blur-2xl border-b border-white/10 lg:hidden"
             >
-              <div className="px-8 py-12 flex flex-col gap-8">
+              <div className="px-6 py-8 flex flex-col gap-6">
                 {navLinks.map((link, i) => (
                   <motion.a
                     key={link.name}
@@ -166,7 +166,7 @@ const Navbar = () => {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: i * 0.1 }}
                     onClick={() => setIsOpen(false)}
-                    className="text-4xl font-black text-gray-500 hover:text-white uppercase tracking-tighter"
+                    className="text-2xl font-black text-gray-500 hover:text-white uppercase tracking-tighter"
                   >
                     {link.name}
                   </motion.a>
