@@ -81,34 +81,33 @@ const Projects = () => {
                 whileHover={{ scale: 1.04 }}
                 className="rounded-xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 hover:border-purple-500/50 transition-all"
               >
-                {/* Media */}
-<div className="relative group">
+              {/* Media */}
+<div className="relative">
   <img
     src={project.image}
     alt={project.title}
     className="w-full h-48 object-cover opacity-80"
   />
 
-  {/* GitHub Button (Always Clickable) */}
+  {/* GitHub Button */}
   <a
     href={project.github}
     target="_blank"
     rel="noopener noreferrer"
-    className="absolute top-3 right-3 z-20 p-2 rounded-full 
+    className="absolute top-3 right-3 z-20 p-2 rounded-full
                bg-black/60 hover:bg-purple-500 text-white transition"
   >
     <Github className="h-5 w-5" />
   </a>
 
-  {/* Watch Demo Button */}
+  {/* Watch Demo (Always Visible) */}
   {project.hasDemo && (
     <button
       onClick={() => setActiveVideo(project.video)}
-      className="absolute inset-x-0 bottom-4 mx-auto w-fit z-10
+      className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10
                  flex items-center gap-2 px-4 py-2
-                 bg-purple-600 text-white rounded-full font-medium
-                 opacity-100 sm:opacity-0 sm:group-hover:opacity-100
-                 transition"
+                 bg-purple-600 hover:bg-purple-700
+                 text-white rounded-full font-medium transition"
     >
       <PlayCircle className="h-5 w-5" />
       Watch Demo
