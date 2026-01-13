@@ -120,7 +120,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Atharv Marathe"
                       className="w-full px-3.5 py-2.5 bg-black/30 border border-white/10 rounded-lg text-sm text-white outline-none focus:border-purple-500/50 transition-all placeholder:text-gray-600"
                     />
                   </div>
@@ -131,7 +131,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="email"
-                      placeholder="john@example.com"
+                      placeholder="atharv@example.com"
                       className="w-full px-3.5 py-2.5 bg-black/30 border border-white/10 rounded-lg text-sm text-white outline-none focus:border-purple-500/50 transition-all placeholder:text-gray-600"
                     />
                   </div>
