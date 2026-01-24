@@ -45,7 +45,7 @@ const Projects = () => {
     {
       title: "Vehicle Service Tracker",
       description:
-  "A Spring Boot–based backend application that stores and tracks vehicle service details such as service history and dates. It helps users maintain service records through REST APIs for easy access and future reference."
+  "A Java Spring based backend application that stores and tracks vehicle service details such as service history and dates. It helps users maintain service records through REST APIs for easy access and future reference."
 ,
       image: "/images/mot1.jpeg",
       icon: <Wrench className="h-6 w-6" />,
